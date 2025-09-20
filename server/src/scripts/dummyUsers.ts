@@ -1,0 +1,58 @@
+export const dummyTeachersData = [
+  {
+    name: 'Rohit Kumar',
+    email: 'rohitkumar@amitypatna.edu',
+    password: 'teacherpass',
+    department: 'CSE/IT',
+    assignedCourses: ['BCA', 'B.Tech'],
+    assignedSemesters: [1, 2, 3],
+    assignedSubjects: [],
+    teacherId: 'AMIIT101',
+    institute: 'Amity University',
+  },
+  {
+    name: 'Sunita Sharma',
+    email: 'sunitasharma@amitypatna.edu',
+    password: 'teacherpass',
+    department: 'CSE/IT',
+    assignedCourses: ['B.Tech'],
+    assignedSemesters: [4, 5, 6],
+    assignedSubjects: [],
+    teacherId: 'AMIIT102',
+    institute: 'Amity University',
+  },
+  {
+    name: 'Anil Singh',
+    email: 'anilsingh@amitypatna.edu',
+    password: 'teacherpass',
+    department: 'CSE/IT',
+    assignedCourses: ['BCA'],
+    assignedSemesters: [4, 5, 6],
+    assignedSubjects: [],
+    teacherId: 'AMIIT103',
+    institute: 'Amity University',
+  },
+];
+
+export const dummyStudentsData = [
+  {
+    name: 'Karan Verma',
+    email: 'karanverma@student.amitypatna.edu',
+    password: 'studentpass',
+    course: 'B.Tech',
+    currentSemester: 1,
+    dob: new Date('2003-05-15'),
+    enrollment: 'AMIIT203001',
+    institute: 'Amity University',
+  },
+  {
+    name: 'Priya Singh',
+    email: 'priyasingh@student.amitypatna.edu',
+    password: 'studentpass',
+    course: 'BCA',
+    currentSemester: 2,
+    dob: new Date('2004-03-20'),
+    enrollment: 'AMIIT203002',
+    institute: 'Amity University',
+  },
+];
